@@ -1,6 +1,6 @@
-from keras.utils import to_categorical # type: ignore
+from keras.utils import to_categorical  # type: ignore
 from keras import layers
-from keras.preprocessing.image import ImageDataGenerator   # type: ignore
+from tensorflow.keras.preprocessing.image import ImageDataGenerator   # type: ignore
 from keras import datasets  # type: ignore
 from keras import optimizers
 from keras import callbacks
