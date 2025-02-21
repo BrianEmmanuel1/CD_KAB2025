@@ -41,13 +41,13 @@ def get_test_metrics(y_test, y_predict):
 
 def classification_tree(x_train, y_train):
     model = tree.DecisionTreeClassifier(
-        max_depth = 30,
-        min_samples_split=2,
-        min_samples_leaf=1,
+        max_depth = 10,
+        min_samples_split=10,
+        min_samples_leaf=5,
         max_features='sqrt',
         class_weight='balanced',
         random_state=42,
-        criterion='entropy'
+        criterion='gini'
     )
     model.fit(x_train, y_train)
     return model
