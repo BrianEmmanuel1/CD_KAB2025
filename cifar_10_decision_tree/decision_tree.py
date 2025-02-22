@@ -1,19 +1,8 @@
-from imports import Cifar10 as cif
 from sklearn import tree
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score
-
+from sklearn.decomposition import PCA
 import numpy as np
 
-def split_cifar_data():
-    data = cif()
-
-    x_train = np.array(data.train_data.data).reshape(len(data.train_data), -1) / 255
-    y_train = np.array(data.train_data.targets) 
-    
-    x_test = np.array(data.test_data.data).reshape(len(data.test_data), -1) / 255
-    y_test = np.array(data.test_data.targets)
-    
-    return x_train, y_train, x_test, y_test
 
 def regression_tree(x_train, y_train):
     model = tree.DecisionTreeRegressor(
