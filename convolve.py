@@ -6,14 +6,14 @@ from keras import optimizers
 from keras import callbacks
 from keras import models
 
-(train_img, train_labels), (test_img, test_labels) = datasets.cifar100.load_data()
+(train_img, train_labels), (test_img, test_labels) = datasets.cifar10.load_data()
 
 #normalizacion de imagenes
 train_img = train_img.astype("float32") / 255.
 test_img = test_img.astype("float32") / 255.
 
-lbl_train = to_categorical(train_labels, 100)
-lbl_test = to_categorical(test_labels, 100)
+lbl_train = to_categorical(train_labels, 10)
+lbl_test = to_categorical(test_labels, 10)
 
 model = models.Sequential([
     layers.Conv2D(filters=32, kernel_size=(3, 3), padding="same", activation="relu", input_shape=(32, 32, 3)),
@@ -54,7 +54,7 @@ model = models.Sequential([
     layers.BatchNormalization(),
     layers.Dropout(0.4),
     
-    layers.Dense(100, activation="softmax")
+    layers.Dense(10, activation="softmax")
 ])
 
 callback = callbacks.EarlyStopping(monitor="val_loss", patience=10, restore_best_weights=True)
