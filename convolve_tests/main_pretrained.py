@@ -21,17 +21,17 @@ img_test_preppoc = applications.vgg16.preprocess_input(cifar100.test_img)
 #Load the base model and remove the fully connected layers
 base_model = applications.VGG16(
     weights='imagenet',
-    include_top=False,
+    include_top=True,
     input_shape=(32, 32, 3)
 )
 
 #desactivate base model training
-base_model.trainable = False 
+base_model.trainable = True
 
 inputs = layers.Input(shape=(32, 32, 3))
 x = base_model(inputs, training=False) #set the input layer to the base model
-x = layers.GlobalAveragePooling2D()(x) 
 x = layers.Dense(512, activation="relu")(x) #add a fully connected hidden layer 
+x = layers.Dense(216, activation="relu")(x)
 outputs = layers.Dense(100, activation="softmax")(x) #add the output layer 
 
 #build the whole model
