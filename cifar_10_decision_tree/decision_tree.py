@@ -1,3 +1,4 @@
+from cifar_10_decision_tree.imports_tv import Cifar10 as cif
 from sklearn import tree
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score
 from sklearn.decomposition import PCA
