@@ -39,12 +39,17 @@ def calculate_variance(image):
     return np.var(image)
 
 def calculate_kurtosis(image):
-    # Calculate the kurtosis of the image
+    # Ensure the image has sufficient variance
+    if np.var(image) < 1e-6:  # This threshold can be adjusted
+        return 0  # or some fallback value
     return kurtosis(image)
 
 def calculate_skew(image):
-    # Calculate the skew of the image
+    # Ensure the image has sufficient variance
+    if np.var(image) < 1e-6:  # This threshold can be adjusted
+        return 0  # or some fallback value
     return skew(image, axis=None)
+
 
 def calculate_fractal_dimension(image, threshold=0.9):
     # Calculate the fractal dimension of the image
@@ -66,6 +71,8 @@ def calculate_fractal_dimension(image, threshold=0.9):
     counts = []
     for size in sizes:
         counts.append(box_count(image, size))
+    counts = [count for count in counts if count > 0]  # Remove zero counts
+    sizes = sizes[:len(counts)]  # Adjust sizes accordingly
     coeffs = np.polyfit(np.log(sizes), np.log(counts), 1)
     return -coeffs[0]
 
