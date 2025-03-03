@@ -36,4 +36,17 @@ def load_dataset():
     test_x = load_h5('./data/camelyonpatch_level_2_split_test_x.h5.gz')
     test_y = load_h5('./data/camelyonpatch_level_2_split_test_y.h5.gz')
     
+    # Asegurarse de que las etiquetas sean unidimensionales
+    # Para CamelyonPatch, las etiquetas indican si hay células cancerosas (1) o no (0)
+    if train_y.ndim > 1:
+        train_y = train_y.ravel()
+    
+    if test_y.ndim > 1:
+        test_y = test_y.ravel()
+    
+    print(f"train_x shape: {train_x.shape}")
+    print(f"train_y shape: {train_y.shape}")
+    print(f"test_x shape: {test_x.shape}")
+    print(f"test_y shape: {test_y.shape}")
+    
     return train_x, train_y, test_x, test_y
