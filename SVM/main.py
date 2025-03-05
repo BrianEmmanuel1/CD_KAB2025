@@ -123,10 +123,10 @@ if __name__ == "__main__":
         test_df = pd.read_csv(test_csv)
 
         # Separate features and labels
-        X_train = train_df.drop(columns=['label'])
-        y_train = train_df['label']
-        X_test = test_df.drop(columns=['label'])
-        y_test = test_df['label']
+        X_train = train_df.drop(columns=['Label'])
+        y_train = train_df['Label']
+        X_test = test_df.drop(columns=['Label'])
+        y_test = test_df['Label']
     else:
         logger.info("=== CSV not found, initiating preprocessing... ===")
         start_total = time.time()
