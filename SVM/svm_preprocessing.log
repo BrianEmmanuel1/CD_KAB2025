@@ -1,0 +1,210 @@
+2025-03-03 18:07:56,793 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-03 18:07:56,793 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-03 18:11:27,948 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-03 18:11:27,948 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-03 18:12:07,959 - svm_preprocessing - INFO - Dataset cargado. Tamaño de entrenamiento: (262144, 96, 96, 3), Tamaño de prueba: (32768, 96, 96, 3)
+2025-03-03 18:12:07,965 - svm_preprocessing - INFO - Convirtiendo imágenes a escala de grises...
+2025-03-03 18:13:01,709 - svm_preprocessing - INFO - Conversión a escala de grises completada en 53.73 segundos
+2025-03-03 18:13:01,732 - svm_preprocessing - INFO - Extrayendo características del conjunto de entrenamiento...
+2025-03-03 18:14:48,791 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-03 18:14:48,791 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría, retornando 0.0
+2025-03-03 18:14:48,791 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:19:53,559 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-03 18:19:53,559 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría, retornando 0.0
+2025-03-03 18:19:53,560 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:36:44,091 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:47:12,347 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-03 18:47:12,347 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-03 18:47:50,863 - svm_preprocessing - INFO - Dataset cargado. Tamaño de entrenamiento: (262144, 96, 96, 3), Tamaño de prueba: (32768, 96, 96, 3)
+2025-03-03 18:47:50,869 - svm_preprocessing - INFO - Convirtiendo imágenes a escala de grises...
+2025-03-03 18:47:59,808 - svm_preprocessing - INFO - Conversión a escala de grises completada en 8.93 segundos
+2025-03-03 18:47:59,808 - svm_preprocessing - INFO - Extrayendo características del conjunto de entrenamiento...
+2025-03-03 18:49:23,387 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-03 18:49:23,387 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría, retornando 0.0
+2025-03-03 18:49:23,387 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:53:36,830 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-03 18:53:36,846 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría, retornando 0.0
+2025-03-03 18:53:36,846 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:54:34,460 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:59:30,104 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-03 18:59:30,104 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría, retornando 0.0
+2025-03-03 18:59:30,104 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 18:59:55,620 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-03 18:59:55,620 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría, retornando 0.0
+2025-03-03 18:59:55,621 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 19:00:01,568 - svm_preprocessing - INFO - Extracción de características de entrenamiento completada en 721.76 segundos
+2025-03-03 19:00:01,568 - svm_preprocessing - INFO - Extrayendo características del conjunto de prueba...
+2025-03-03 19:01:16,108 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal
+2025-03-03 19:01:30,244 - svm_preprocessing - INFO - Extracción de características de prueba completada en 88.68 segundos
+2025-03-03 19:01:30,245 - svm_preprocessing - INFO - Normalizando características...
+2025-03-03 19:01:30,530 - svm_preprocessing - INFO - Extracción de características completada. Forma de las características: (262144, 47)
+2025-03-03 19:01:30,531 - svm_preprocessing - INFO - Procesamiento completo en 858.18 segundos
+2025-03-03 23:21:02,419 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-03 23:21:02,420 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-03 23:22:03,017 - svm_preprocessing - INFO - Dataset cargado. Tamaño de entrenamiento: (262144, 96, 96, 3), Tamaño de prueba: (32768, 96, 96, 3)
+2025-03-03 23:22:03,030 - svm_preprocessing - INFO - Convirtiendo imágenes a escala de grises...
+2025-03-03 23:29:45,464 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-03 23:29:45,464 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-03 23:30:09,863 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-03 23:30:09,863 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-03 23:30:55,429 - svm_preprocessing - INFO - Dataset cargado. Tamaño de entrenamiento: (262144, 96, 96, 3), Tamaño de prueba: (32768, 96, 96, 3)
+2025-03-03 23:30:55,437 - svm_preprocessing - INFO - Convirtiendo imágenes a escala de grises...
+2025-03-03 23:31:37,944 - svm_preprocessing - INFO - Conversión a escala de grises completada en 42.50 segundos
+2025-03-03 23:31:37,963 - svm_preprocessing - INFO - Extrayendo características del conjunto de entrenamiento...
+2025-03-03 23:32:39,998 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis en imagen [[255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ ...
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]], retornando 0.0
+2025-03-03 23:32:39,999 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen [[255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ ...
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]], retornando 0.0
+2025-03-03 23:32:40,000 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen [[255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ ...
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]]
+2025-03-03 23:35:13,144 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis en imagen [[255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ ...
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]], retornando 0.0
+2025-03-03 23:35:13,144 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen [[255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ ...
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]], retornando 0.0
+2025-03-03 23:35:13,144 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen [[255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ ...
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]
+ [255 255 255 ... 255 255 255]]
+2025-03-03 23:35:49,258 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen [[22 22 22 ... 26 26 26]
+ [22 22 22 ... 26 26 26]
+ [22 22 22 ... 25 25 25]
+ ...
+ [ 0  0  0 ...  0  0  0]
+ [ 0  0  0 ...  0  0  0]
+ [ 0  0  0 ...  0  0  0]]
+2025-03-03 23:38:57,130 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis en imagen [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]], retornando 0.0
+2025-03-03 23:38:57,130 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]], retornando 0.0
+2025-03-03 23:38:57,134 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+2025-03-03 23:39:13,252 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis en imagen [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]], retornando 0.0
+2025-03-03 23:39:13,252 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]], retornando 0.0
+2025-03-03 23:39:13,253 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+2025-03-03 23:39:16,631 - svm_preprocessing - INFO - Extracción de características de entrenamiento completada en 458.67 segundos
+2025-03-03 23:39:16,631 - svm_preprocessing - INFO - Extrayendo características del conjunto de prueba...
+2025-03-03 23:40:02,658 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen [[170 172 176 ... 193 193 187]
+ [176 177 180 ... 194 194 196]
+ [182 183 183 ... 200 197 203]
+ ...
+ [  0   0   0 ...   0   0   0]
+ [  0   0   0 ...   0   0   0]
+ [  0   0   0 ...   0   0   0]]
+2025-03-03 23:40:11,478 - svm_preprocessing - INFO - Extracción de características de prueba completada en 54.85 segundos
+2025-03-03 23:40:11,478 - svm_preprocessing - INFO - Normalizando características...
+2025-03-03 23:40:11,589 - svm_preprocessing - INFO - Extracción de características completada. Forma de las características: (262144, 15)
+2025-03-03 23:40:11,589 - svm_preprocessing - INFO - Procesamiento completo en 601.73 segundos
+2025-03-04 00:18:54,073 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-04 00:18:54,073 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-04 00:19:37,958 - svm_preprocessing - INFO - Dataset cargado. Tamaño de entrenamiento: (262144, 96, 96, 3), Tamaño de prueba: (32768, 96, 96, 3)
+2025-03-04 00:19:37,972 - svm_preprocessing - INFO - Convirtiendo imágenes a escala de grises...
+2025-03-04 00:19:58,096 - svm_preprocessing - INFO - Conversión a escala de grises completada en 20.11 segundos
+2025-03-04 00:19:58,119 - svm_preprocessing - INFO - Extrayendo características del conjunto de entrenamiento...
+2025-03-04 00:21:02,748 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:21:02,749 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:21:02,749 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:23:31,747 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:23:31,748 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:23:31,749 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:24:07,032 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:27:13,247 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:27:13,248 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:27:13,249 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:27:30,655 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:27:30,655 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:27:30,663 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:27:34,029 - svm_preprocessing - INFO - Extracción de características de entrenamiento completada en 455.91 segundos
+2025-03-04 00:27:34,029 - svm_preprocessing - INFO - Extrayendo características del conjunto de prueba...
+2025-03-04 00:28:25,267 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:28:36,166 - svm_preprocessing - INFO - Extracción de características de prueba completada en 62.14 segundos
+2025-03-04 00:28:36,166 - svm_preprocessing - INFO - Normalizando características...
+2025-03-04 00:28:36,352 - svm_preprocessing - INFO - Extracción de características completada. Forma de las características: (262144, 15)
+2025-03-04 00:28:36,353 - svm_preprocessing - INFO - Procesamiento completo en 582.28 segundos
+2025-03-04 00:39:56,608 - svm_preprocessing - INFO - Iniciando preprocesamiento del dataset
+2025-03-04 00:39:56,608 - svm_preprocessing - INFO - Cargando dataset...
+2025-03-04 00:40:45,036 - svm_preprocessing - INFO - Dataset cargado. Tamaño de entrenamiento: (262144, 96, 96, 3), Tamaño de prueba: (32768, 96, 96, 3)
+2025-03-04 00:40:45,044 - svm_preprocessing - INFO - Convirtiendo imágenes a escala de grises...
+2025-03-04 00:41:31,905 - svm_preprocessing - INFO - Conversión a escala de grises completada en 46.85 segundos
+2025-03-04 00:41:31,936 - svm_preprocessing - INFO - Extrayendo características del conjunto de entrenamiento...
+2025-03-04 00:42:56,412 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:42:56,413 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:42:56,414 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:46:42,735 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:46:42,735 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:46:42,735 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:47:39,376 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:50:54,099 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:50:54,099 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:50:54,099 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:51:10,521 - svm_preprocessing - WARNING - Varianza insuficiente para calcular curtosis, retornando 0.0
+2025-03-04 00:51:10,521 - svm_preprocessing - WARNING - Varianza insuficiente para calcular asimetría en imagen , retornando 0.0
+2025-03-04 00:51:10,521 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:51:13,986 - svm_preprocessing - INFO - Extracción de características de entrenamiento completada en 582.05 segundos
+2025-03-04 00:51:13,989 - svm_preprocessing - INFO - Extrayendo características del conjunto de prueba...
+2025-03-04 00:52:00,311 - svm_preprocessing - WARNING - Número insuficiente de conteos válidos para calcular dimensión fractal en imagen 
+2025-03-04 00:52:09,360 - svm_preprocessing - INFO - Extracción de características de prueba completada en 55.37 segundos
+2025-03-04 00:52:09,362 - svm_preprocessing - INFO - Normalizando características...
+2025-03-04 00:52:09,478 - svm_preprocessing - INFO - Extracción de características completada. Forma de las características de train: (262144, 15)
+2025-03-04 00:52:09,478 - svm_preprocessing - INFO - Extracción de características completada. Forma de las características de test: (32768, 15)
+2025-03-04 00:52:09,478 - svm_preprocessing - INFO - Procesamiento completo en 732.87 segundos
