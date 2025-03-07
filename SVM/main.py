@@ -211,7 +211,7 @@ if __name__ == "__main__":
         c10_results = log_model_performance(svm_c10, X_train, y_train, X_test, y_test, "SVM-C10")
 
         # Generar visualizaciones
-        visualize_results(results)
+        visualize_results(c10_results, save_path='svm_results.png')
 
         # Resumen final
         print("\n====== RESUMEN DE RESULTADOS ======")
